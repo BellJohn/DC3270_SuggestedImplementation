@@ -59,7 +59,7 @@ public class DegreeProgrammeManagerStepDefinitions {
 	/**
 	 * Matches the DELETION sub-feature
 	 */
-	@When("the degreeProgrammeOrchestrator attempts to create a new degreeProgramme")
+	@When("the degreeProgrammeOrchestrator attempts to delete a new degreeProgramme")
 	public void attemptDeletion() {
 		result = new DegreeProgrammeOrchestrator().deleteProgramme(degreeCode);
 	}
